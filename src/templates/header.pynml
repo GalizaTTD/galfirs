@@ -101,9 +101,9 @@ grf {
 }
 
 basecost {
-	PR_BUILD_INDUSTRY: 2;       // Industries are more expensive
-	PR_BUILD_INDUSTRY_RAW : 2;  // Building primary industries is also expensive
-	PR_CLEAR_INDUSTRY : 2;      // Deleting industries must also be expensive
+	PR_BUILD_INDUSTRY: 10;       // Industries are more expensive
+	PR_BUILD_INDUSTRY_RAW : 10;  // Building primary industries is also expensive
+	PR_CLEAR_INDUSTRY : 10;      // Deleting industries must also be expensive
 }
 
 <!--! Old default values for old savegames -->
